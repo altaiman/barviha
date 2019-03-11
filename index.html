@@ -1,17 +1,287 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1200,initial-scale=1.0">
-    <link rel="icon" href="/favicon.ico">
-    <title>Барвиха</title>
-  <link href="/app.js" rel="preload" as="script"></head>
-  <body>
-    <noscript>
-      <strong>We're sorry but barviha doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  <script type="text/javascript" src="/app.js"></script></body>
+<html>
+  <meta charset="UTF-8"/>
+  <title>Барвиха — Главная (осталось 108 часов)</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <meta name="viewport" content="width=1150, initial-scale=1, maximum-scale=1"/>
+  <body class="page">
+    <header class="page__header">
+      <div class="header">
+        <div class="header__container container">
+          <div class="header__main">
+            <div class="header__block"><a class="logotype" href="index.html"><img class="logotype__img" src="img/logo.png" alt="Барвиха" title=""/></a>
+            </div>
+            <div class="header__block">
+              <h1 class="title"><a href="#"><img src="../img/title.png" alt="" role="presentation"/>
+                <p>душевные бани на дровах и теплые беседки в Барнауле
+                </p></a>
+              </h1>
+            </div>
+            <div class="header__block">
+              <div class="address">
+                <p>
+                  Барнаул, ул.<br>
+                  Власихинская, 67А / 477<br>
+                  <a href="tel:83852606012">8(3852) <strong>60-60-12</strong></a>
+                </p>
+                <button class="call-btn call-btn_header">Заказать звонок
+                </button>
+              </div>
+            </div>
+          </div>
+          <nav class="navigator">
+            <ul class="navigator__list">
+              <li class="navigator__item navigator__item navigator__item_drop"><a class="navigator__link" href="#">Ваш отдых</a>
+                <ul class="navigator__drop">
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Банный комплекс</a>
+                  </li>
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Таежная баня</a>
+                  </li>
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Теплая беседка &quot;Уютная&quot;</a>
+                  </li>
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Теплая беседка LUX</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Цены на услуги</a>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Фотогалерея</a>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Отзывы</a>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Контакты</a>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Соцсети</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="section section_welcome">
+      <div class="slider owl-carousel"><img src="../img/slider/slide.png" alt="" role="presentation"/><img src="../img/slider/slide.png" alt="" role="presentation"/><img src="../img/slider/slide.png" alt="" role="presentation"/>
+      </div>
+      <div class="section__container container">
+        <h2 class="caption">Комплекс отдыха "Барвиха" приветствует Вас!
+        </h2>
+        <div class="content content_welcome">
+          <p>
+            Мы рады предложить вам комфортный отдых в настоящей «деревне», где
+            все выполнено с душой из натуральной древесины и других эко-материалов.
+            Для Вас - отдельно расположенный комплекс вдали от посторонних глаз.
+            Вы предоставлены сами себе.
+          </p>
+        </div>
+        <ul class="offers-list">
+          <li class="offer-link"><a href="#section0">
+            <div class="offer-link__ico"><img src="../img/icons/ico-1.png" alt="Банный комплекс"/>
+            </div><span class="offer-link__name">Банный комплекс</span></a>
+          </li>
+          <li class="offer-link"><a href="#section1">
+            <div class="offer-link__ico"><img src="../img/icons/ico-2.png" alt="Таежная баня"/>
+            </div><span class="offer-link__name">Таежная баня</span></a>
+          </li>
+          <li class="offer-link"><a href="#section2">
+            <div class="offer-link__ico"><img src="../img/icons/ico-3.png" alt="Теплая беседка &quot;Уютная&quot;"/>
+            </div><span class="offer-link__name">Теплая беседка &quot;Уютная&quot;</span></a>
+          </li>
+          <li class="offer-link"><a href="#section3">
+            <div class="offer-link__ico"><img src="../img/icons/ico-4.png" alt="Теплая беседка LUX"/>
+            </div><span class="offer-link__name">Теплая беседка LUX</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section section_style-1" id="section0">
+      <div class="section__container container">
+        <div class="offer-preview offer-preview offer-preview_style-1">
+          <div class="offer-preview__image"><img src="img/previewImage.jpg"/>
+          </div>
+          <div class="offer-preview__content">
+            <h2 class="offer-preview__name">Банный комплекс
+            </h2>
+            <div class="content">
+              <p>
+        Русская баня на дровах. Двухэтажный сруб с приватной территорией.
+        Просторная парная на 10-16 человек. Гостиная с кухней, беседка с мангалом,
+        бассейн с подогревом на улице, обливное ведро, комната отдыха,
+        комната для курения, мини-футбол, караоке-ТВ.
+              </p>
+            </div><a class="offer-preview__more" href="#">подробно</a>
+            <div class="offer-preview__bottom"><span class="offer-preview__price">от 1500 руб./час</span>
+              <button class="call-btn">Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section section_style-2" id="section1">
+      <div class="section__container container">
+        <div class="offer-preview offer-preview offer-preview_style-2 offer-preview offer-preview_style-odd">
+          <div class="offer-preview__image"><img src="img/previewImage2.jpg"/>
+          </div>
+          <div class="offer-preview__content">
+            <h2 class="offer-preview__name">Таежная баня
+            </h2>
+            <div class="content">
+              <p>
+        Сруб из бревен ручной рубки, уютная гостиная, жаркая парная
+        (можно самим поддерживать необходимую температуру, подбрасывая дрова в печь),
+        мангал на улице с навесом и освещением и другие удобства
+        для комфорта гостей.
+              </p>
+            </div><a class="offer-preview__more" href="#">подробно</a>
+            <div class="offer-preview__bottom"><span class="offer-preview__price">от 1300 руб./час</span>
+              <button class="call-btn">Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section section_style-3" id="section2">
+      <div class="section__container container">
+        <div class="offer-preview offer-preview offer-preview_style-3">
+          <div class="offer-preview__image"><img src="img/previewImage3.jpg"/>
+          </div>
+          <div class="offer-preview__content">
+            <h2 class="offer-preview__name">Теплая беседка &quot;Уютная&quot;
+            </h2>
+            <div class="content">
+              <p>
+      Теплая просторная беседка LUX на 25 человек!
+      Комфортный отдых на свежем воздухе!&lt;br&gt;
+        - Просторное помещение, натуральные материалы&lt;br&gt;
+        - Теплый пол, отопление, горячая вода&lt;br&gt;
+        - Кухонная зона с печью СВЧ, холодильником и раковиной&lt;br&gt;
+        - Зона барбекю - Танцпол с диско-шаром&lt;br&gt;
+        - Лаундж-зона - Барная стойка&lt;br&gt;
+        - Музыка, караоке, TV - Теплый WC
+              </p>
+            </div><a class="offer-preview__more" href="#">подробно</a>
+            <div class="offer-preview__bottom"><span class="offer-preview__price">от 1500 руб./час</span>
+              <button class="call-btn">Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section section_style-4" id="section3">
+      <div class="section__container container">
+        <div class="offer-preview offer-preview offer-preview_style-4 offer-preview offer-preview_style-odd">
+          <div class="offer-preview__image"><img src="img/previewImage4.jpg"/>
+          </div>
+          <div class="offer-preview__content">
+            <h2 class="offer-preview__name">Теплая беседка LUX
+            </h2>
+            <div class="content">
+              <p>
+        Русская баня на дровах. Двухэтажный сруб с приватной территорией.
+        Просторная парная на 10-16 человек. Гостиная с кухней, беседка с мангалом,
+        бассейн с подогревом на улице, обливное ведро, комната отдыха,
+        комната для курения, мини-футбол, караоке-ТВ.
+              </p>
+            </div><a class="offer-preview__more" href="#">подробно</a>
+            <div class="offer-preview__bottom"><span class="offer-preview__price">от 1500 руб./час</span>
+              <button class="call-btn">Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section_reviews">
+      <div class="section__container container"><span class="caption">Люди о нас</span>
+        <div class="reviews">
+          <div class="reviews__items">
+            <div class="review">
+              <div class="review__author">
+                <div class="review__author-photo"><img src="img/icons/author.png"/>
+                </div><span class="review__author-name"></span>
+              </div>
+              <div class="review__text">
+                <p>
+        Отмечала свой день рождения в компании друзей в этой замечательной бане.
+        Все было чудесно! Шикарная просторная парная с обалденным
+        ароматом нового дерева!</p>
+              </div><a class="review__link" href="#">подробней...</a>
+            </div>
+            <div class="review">
+              <div class="review__author">
+                <div class="review__author-photo"><img src="img/icons/author.png"/>
+                </div><span class="review__author-name"></span>
+              </div>
+              <div class="review__text">
+                <p>Друзья!!!!Всем рекомендую посетить сей дивное заведение!</p>
+              </div><a class="review__link" href="#">подробней...</a>
+            </div>
+            <div class="review">
+              <div class="review__author">
+                <div class="review__author-photo"><img src="img/icons/author.png"/>
+                </div><span class="review__author-name"></span>
+              </div>
+              <div class="review__text">
+                <p>
+        Отмечала свой день рождения в компании друзей в этой замечательной бане.
+        Все было чудесно! Шикарная просторная парная с обалденным
+        ароматом нового дерева!</p>
+              </div><a class="review__link" href="#">подробней...</a>
+            </div>
+          </div>
+          <div class="reviews__links"><a class="btn btn_reviews" href="https://barnaul.flamp.ru/firm/barvikha_baza_otdykha-70000001020976240#reviews" target="_blank">Читать больше<br>Flamp.ru</a><a class="btn btn_reviews" href="#">Оставить отзыв</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="map" id="map">
+    </div>
+    <footer class="page__footer">
+      <footer class="footer">
+        <div class="footer__container container">
+          <nav class="navigator navigator_footer">
+            <ul class="navigator__list">
+              <li class="navigator__item navigator__item navigator__item_drop"><a class="navigator__link" href="#">Ваш отдых</a>
+                <ul class="navigator__drop">
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Теплая беседка LUX</a>
+                  </li>
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Теплая беседка &quot;Уютная&quot;</a>
+                  </li>
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Таежная баня</a>
+                  </li>
+                  <li class="navigator__item"><a class="navigator__link navigator__link_drop" href="#">Банный комплекс</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Цены на услуги</a>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Фотогалерея</a>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Отзывы</a>
+              </li>
+              <li class="navigator__item"><a class="navigator__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__end">
+            <div class="address">
+              <p>
+                Барнаул, ул.<br>
+                Власихинская, 67А / 477<br>
+                <a href="tel:83852606012">8(3852) <strong>60-60-12</strong></a>
+              </p>
+            </div>
+            <div class="social"><a href="#"><img src="../img/icons/ok.png" alt="Одноклассники"/></a><a href="#"><img src="../img/icons/vk.png" alt="Вконтакте"/></a><a href="#"><img src="../img/icons/insta.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="js/libs.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsvMwUiOkExkraIEOWzHY3zR242f7k9Y0"></script>
+      <script src="js/maps.js"></script>
+    </footer>
+  </body>
 </html>
