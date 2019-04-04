@@ -4,7 +4,8 @@
   <title>Барвиха — Главная</title>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-  <meta name="viewport" content="width=1150, initial-scale=1, maximum-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
   <body class="page">
     <header class="page__header">
       <div class="header">
@@ -74,28 +75,30 @@
           </p>
         </div>
         <ul class="offers-list">
-          <li class="offer-link"><a href="#section0">
+          <li class="offer-link"><a href="#section">
             <div class="offer-link__ico"><img src="../img/icons/ico-1.png" alt="Банный комплекс"/>
             </div><span class="offer-link__name">Банный комплекс</span></a>
           </li>
-          <li class="offer-link"><a href="#section1">
+          <li class="offer-link"><a href="#section">
             <div class="offer-link__ico"><img src="../img/icons/ico-2.png" alt="Таежная баня"/>
             </div><span class="offer-link__name">Таежная баня</span></a>
           </li>
-          <li class="offer-link"><a href="#section2">
+          <li class="offer-link"><a href="#section">
             <div class="offer-link__ico"><img src="../img/icons/ico-3.png" alt="Теплая беседка &quot;Уютная&quot;"/>
             </div><span class="offer-link__name">Теплая беседка &quot;Уютная&quot;</span></a>
           </li>
-          <li class="offer-link"><a href="#section3">
+          <li class="offer-link"><a href="#section">
             <div class="offer-link__ico"><img src="../img/icons/ico-4.png" alt="Теплая беседка LUX"/>
             </div><span class="offer-link__name">Теплая беседка LUX</span></a>
           </li>
         </ul>
       </div>
     </section>
-    <section class="section section section_style-1" id="section0">
+    <section class="section" id="section0" style="background:#bdc7ae">
       <div class="section__container container">
-        <div class="offer offer offer_style-1">
+        <div class="offer">
+          <div class="offer__bg" style="background-image:url(img/patterns/patternStyle1.jpg)">
+          </div>
           <div class="offer__image"><img src="img/previewImage.jpg"/>
           </div>
           <div class="offer__content">
@@ -117,9 +120,11 @@
         </div>
       </div>
     </section>
-    <section class="section section section_style-2" id="section1">
+    <section class="section" id="section1" style="background:#d9ab94">
       <div class="section__container container">
-        <div class="offer offer offer_style-2 offer offer_style-odd">
+        <div class="offer offer offer_style-odd">
+          <div class="offer__bg" style="background-image:url(img/patterns/patternStyle2.jpg)">
+          </div>
           <div class="offer__image"><img src="img/previewImage2.jpg"/>
           </div>
           <div class="offer__content">
@@ -141,9 +146,11 @@
         </div>
       </div>
     </section>
-    <section class="section section section_style-3" id="section2">
+    <section class="section" id="section2" style="background:#e0c97f">
       <div class="section__container container">
-        <div class="offer offer offer_style-3">
+        <div class="offer">
+          <div class="offer__bg" style="background-image:url(img/patterns/patternStyle3.jpg)">
+          </div>
           <div class="offer__image"><img src="img/previewImage3.jpg"/>
           </div>
           <div class="offer__content">
@@ -169,9 +176,11 @@
         </div>
       </div>
     </section>
-    <section class="section section section_style-4" id="section3">
+    <section class="section" id="section3" style="background:#c4bda3">
       <div class="section__container container">
-        <div class="offer offer offer_style-4 offer offer_style-odd">
+        <div class="offer offer offer_style-odd">
+          <div class="offer__bg" style="background-image:url(img/patterns/patternStyle4.png)">
+          </div>
           <div class="offer__image"><img src="img/previewImage4.jpg"/>
           </div>
           <div class="offer__content">
@@ -207,7 +216,7 @@
         Отмечала свой день рождения в компании друзей в этой замечательной бане.
         Все было чудесно! Шикарная просторная парная с обалденным
         ароматом нового дерева!</p>
-              </div><a class="review__link" href="#">подробней...</a>
+              </div><a class="review__link" href="#" target="_blank">подробней...</a>
             </div>
             <div class="review">
               <div class="review__author">
@@ -216,7 +225,7 @@
               </div>
               <div class="review__text">
                 <p>Друзья!!!!Всем рекомендую посетить сей дивное заведение!</p>
-              </div><a class="review__link" href="#">подробней...</a>
+              </div><a class="review__link" href="#" target="_blank">подробней...</a>
             </div>
             <div class="review">
               <div class="review__author">
@@ -228,10 +237,10 @@
         Отмечала свой день рождения в компании друзей в этой замечательной бане.
         Все было чудесно! Шикарная просторная парная с обалденным
         ароматом нового дерева!</p>
-              </div><a class="review__link" href="#">подробней...</a>
+              </div><a class="review__link" href="#" target="_blank">подробней...</a>
             </div>
           </div>
-          <div class="reviews__links"><a class="btn btn_reviews" href="https://barnaul.flamp.ru/firm/barvikha_baza_otdykha-70000001020976240#reviews" target="_blank">Читать больше<br>Flamp.ru</a><a class="btn btn_reviews" href="#">Оставить отзыв</a>
+          <div class="reviews__links"><a class="btn btn_reviews btn_flamp" href="https://barnaul.flamp.ru/firm/barvikha_baza_otdykha-70000001020976240#reviews" target="_blank">Читать больше<br>Flamp.ru</a><a class="btn btn_reviews" href="#">Оставить отзыв</a>
           </div>
         </div>
       </div>
@@ -280,11 +289,10 @@
       </footer>
       <script src="js/libs.js"></script>
       <script src="js/script.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsvMwUiOkExkraIEOWzHY3zR242f7k9Y0"></script>
       <script src="js/maps.js"></script>
     </footer>
     <div class="page__hidden">
-      <div class="offer offer_full offer offer_style-3" id="offer">
+      <div class="offer offer_full" id="offer">
         <div class="offer__content offer__content_page container container_offer">
           <div class="offer__info offer__info_page">
             <h2 class="offer__name">Теплая беседка &quot;Уютная&quot;
@@ -325,6 +333,8 @@
                 </li>
               </ul>
             </div>
+            <button class="call-btn" data-close="data-close">Назад
+            </button>
           </div>
         </div>
       </div>
